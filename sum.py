@@ -29,6 +29,7 @@ def main():
     print(product(numbers))
     print("reversed list of the numbers: ")
     print(reversed(numbers))
+    #reformatting
 
 if __name__ == "__main__":
     main()
