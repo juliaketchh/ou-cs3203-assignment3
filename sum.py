@@ -3,11 +3,16 @@ def sum(nums):
     for i in nums:
        total += i
     return total
+
 def product(nums):
     total = 1
     for i in nums:
         total = total * i
     return total
+
+def reverse(nums):
+    reversedlist = nums[::-1]
+    return reversedlist
 
 def main():
     inputString = input("enter a list of numbers (seperated by commas): ")
