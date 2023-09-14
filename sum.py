@@ -27,6 +27,8 @@ def main():
     print(sum(numbers))
     print("product of the numbers: ")
     print(product(numbers))
+    print("reversed list of the numbers: ")
+    print(reversed(numbers))
 
 if __name__ == "__main__":
     main()
